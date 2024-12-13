@@ -1,0 +1,115 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #fdfcf8;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section des cartes */
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; /* Espacement uniforme entre toutes les cartes */
+}
+
+.card {
+    background-color: #e9dcc8;
+    border-radius: 10px;
+    width: 90%; /* La carte prend 90% de la largeur */
+    max-width: 600px; /* Limite maximale pour éviter qu'elles soient trop grandes */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+.card button {
+    background-color: #be8a68;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card button:hover {
+    background-color: #9e6b54;
+}
+
+/* Pied de page */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    margin: 5px 0;
+}
+
+footer .social-media img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+    .card {
+        width: 95%; /* Plus petite largeur sur mobile */
+    }
+}
+
